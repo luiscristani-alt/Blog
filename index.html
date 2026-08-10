@@ -18,6 +18,10 @@
                 background-color: #FFFFFF;
                 color: #183C63;
                 display: flex;
+                  align-items: center;
+            margin-bottom: 30px;
+            flex-direction: column;
+            gap: 20px;
             }
 
             img {
@@ -25,13 +29,36 @@
                 height: 80px;
             }
 
-            p {
+            div p {
                 font-weight: bold;
-            }luis.cristani@escola.pr.gov.br
+            }
 
             .artigo-autor {
                 font-weight: bold;
             }
+
+                 .imagem {
+            width: 200px;
+            height: 200px;
+        }
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+
+        }
+
+        footer {
+            background-color: #183C63;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
         </style>
      </head>
 
@@ -43,16 +70,77 @@
 <button>👍​​<span>0</span></button>
 
     </header>
-<img src="imagem-blog.png" alt="imagens de livros com simbolos de ticnologia">
+<main>
+        <article>
+            <div>
+                <img src="imagem-blog.png" alt="livro com símbolos de tecnologia">
+                <h2>Meu primeiro post</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de
+                    tecnologia.</p>
+                <button>❤️<span>0</span></button>
+                <button>👎<span>0</span></button>
+            </div>
+            <div>
+                <img src="anupam-raisim-kerketta-2RUSOSHt7wQ-unsplash.svg" class="imagem">
+            </div>
+        </article>
+
+    </main>
     <main>
-   
-<div> <h2>Meu primeiro post</h2>
-        <p> class="artigo-autor" Luis Otavio Cristani</p>
-        <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de
-            tecnologia.</p>
+        <article>
+            <div>
+                <img src="imagem-blog.png" alt="livro com símbolos de tecnologia">
+                <h2>Meu primeiro post</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de
+                    tecnologia.</p>
+                <button>❤️<span>0</span></button>
+                <button>👎<span>0</span></button>
+            </div>
+            <div>
+                <img src="anupam-raisim-kerketta-2RUSOSHt7wQ-unsplash.svg" class="imagem">
+            </div>
+
+        </article>
     </main>
-    </div>
+    <main>
+        <article>
+            <div>
+                <img src="imagem-blog.png" alt="livro com símbolos de tecnologia">
+                <h2>Meu primeiro post</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de
+                    tecnologia.</p>
+                <button>❤️<span>0</span></button>
+                <button>👎<span>0</span></button>
+            </div>
+            <div>
+                <img src="anupam-raisim-kerketta-2RUSOSHt7wQ-unsplash.svg" class="imagem">
+            </div>
+        </article>
     </main>
+    <main>
+        <article>
+            <div>
+                <img src="imagem-blog.png" alt="livro com símbolos de tecnologia">
+                <h2>Meu primeiro post</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de
+                    tecnologia.</p>
+                <button>❤️<span>0</span></button>
+                <button>👎<span>0</span></button>
+            </div>
+            <div>
+                <img src="imagem-blog.png" alt="livro com símbolos de tecnologia" class="imagem">
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p> 2026 Meu Blog Tech | Desenvolvido por Alexandra</p>
+    </footer>
+
 
     <script>
  const botoes = document.querySelectorAll("button");
